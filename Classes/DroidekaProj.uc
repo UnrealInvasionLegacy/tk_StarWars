@@ -73,7 +73,7 @@ defaultproperties
      LifeSpan=10.000000
      Texture=None
      DrawScale=0.700000
-     Skins(0)=Shader'tk_StarWars.Droideka.RedPlasmaTex'
+     Skins(0)=Shader'tk_StarWars.StarWarsWeapons.RedPlasmaTex'
      AmbientGlow=96
      SoundVolume=255
      SoundRadius=50.000000

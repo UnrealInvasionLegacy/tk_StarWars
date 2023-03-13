@@ -16,8 +16,8 @@ function PlayVictory()
 
 defaultproperties
 {
-     FireRateScale=5.400000
-	WeaponClassName(0)=Class'XWeapons.ShockRifle'
+     FireRateScale=1.3
+	WeaponClassName(0)="tk_StarWars.DroidWeapon"
      HitSound(0)=Sound'tk_StarWars.Droideka.DroidBeep01'
      HitSound(1)=Sound'tk_StarWars.Droideka.DroidBeep01'
      HitSound(2)=Sound'tk_StarWars.Droideka.DroidBeep01'
