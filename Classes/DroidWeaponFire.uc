@@ -16,6 +16,6 @@ defaultproperties
      ShakeOffsetMag=(Y=1.000000)
      ShakeOffsetRate=(Y=-2000.000000)
      ShakeOffsetTime=4.000000
-     ProjectileClass=Class'tk_StarWars.DroidekaProj'
+     ProjectileClass=Class'tk_StarWars.DroidProj'
      BotRefireRate=0.500000
 }

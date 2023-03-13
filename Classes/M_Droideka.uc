@@ -303,6 +303,8 @@ defaultproperties
      FireRifleRapidAnim="Rifle_Aimed"
      FireRifleBurstAnim="Rifle_Burst"
      Health=200
+	 HP=200
+	 bCanUsePowerShield=True
      TurnLeftAnim="TurnL"
      TurnRightAnim="TurnR"
      CrouchAnims(0)="CrouchF"

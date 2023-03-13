@@ -1,6 +1,6 @@
-class DroidekaProj extends Projectile placeable;
+class DroidProj extends Projectile placeable;
 
-var DroidekaPlasmaTrail NewTrail;
+var DroidProj NewTrail;
 
 simulated function PostBeginPlay()
 {
@@ -12,7 +12,7 @@ simulated function PostBeginPlay()
 	Super.PostBeginPlay();
 	if ( Level.NetMode != NM_DedicatedServer)
 	{
-		NewTrail = Spawn(class'DroidekaPlasmaTrail',self,,, Rotation);
+		NewTrail = Spawn(class'DroidProj',self,,, Rotation);
 		NewTrail.SetBase(self);
 	}
 
@@ -56,9 +56,9 @@ defaultproperties
 {
      Speed=1000.000000
      MaxSpeed=1500.000000
-     Damage=20.000000
+     Damage=15.000000
      DamageRadius=75.000000
-     MyDamageType=Class'tk_StarWars.DamTypeDroideka'
+     MyDamageType=Class'tk_StarWars.DamTypeBattleDroid'
      LightType=LT_Steady
      LightHue=255
      LightSaturation=127

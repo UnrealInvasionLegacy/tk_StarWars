@@ -3,18 +3,6 @@ class DroidWeaponAttachment extends xWeaponAttachment;
 var class<xEmitter> MuzFlashClass;
 var xEmitter MuzFlash;
 
-simulated function PostNetBeginPlay()
-{
-	Super.PostNetBeginPlay();
-	if ((Instigator != None) && (Instigator.PlayerReplicationInfo != None)&& (Instigator.PlayerReplicationInfo.Team != None))
-	{
-		if (Instigator.PlayerReplicationInfo.Team.TeamIndex == 0)
-			Skins[1] = Material'UT2004Weapons.RedShockFinal';
-		else if (Instigator.PlayerReplicationInfo.Team.TeamIndex == 1)
-			Skins[1] = Material'UT2004Weapons.BlueShockFinal';
-	}
-}
-
 simulated function Destroyed()
 {
 	if (MuzFlash != None)
@@ -31,7 +19,7 @@ simulated event ThirdPersonEffects()
 	{
 		if (FiringMode == 0)
 			WeaponLight();
-        	else
+        else
 		{
 			if (MuzFlash == None)
 			{

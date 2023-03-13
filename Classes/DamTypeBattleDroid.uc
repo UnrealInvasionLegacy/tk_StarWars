@@ -1,4 +1,4 @@
-class DroidekaDamType extends WeaponDamageType
+class DamTypeBattleDroid extends WeaponDamageType
 	abstract;
 
 static function GetHitEffects(out class<xEmitter> HitEffects[4], int VictemHealth )
@@ -8,9 +8,9 @@ static function GetHitEffects(out class<xEmitter> HitEffects[4], int VictemHealt
 
 defaultproperties
 {
-     DeathString="%o rode a Droideka's plasma."
-     FemaleSuicide="A Droideka destroyed herself."
-     MaleSuicide="A Droideka destroyed himself."
+     DeathString="%o rode a Battle Droid's plasma."
+     FemaleSuicide="A Battle Droid destroyed themselves."
+     MaleSuicide="A Battle Droid destroyed themselves."
      bDetonatesGoop=True
      bCauseConvulsions=True
      GibPerterbation=0.250000
