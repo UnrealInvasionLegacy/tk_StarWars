@@ -1,6 +1,6 @@
 class DroidProj extends Projectile placeable;
 
-var DroidProj NewTrail;
+var DroidekaPlasmaTrail NewTrail;
 
 simulated function PostBeginPlay()
 {
@@ -12,7 +12,7 @@ simulated function PostBeginPlay()
 	Super.PostBeginPlay();
 	if ( Level.NetMode != NM_DedicatedServer)
 	{
-		NewTrail = Spawn(class'DroidProj',self,,, Rotation);
+		NewTrail = Spawn(class'DroidekaPlasmaTrail',self,,, Rotation);
 		NewTrail.SetBase(self);
 	}
 

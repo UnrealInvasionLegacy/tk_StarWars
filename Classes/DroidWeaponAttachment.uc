@@ -40,7 +40,7 @@ simulated event ThirdPersonEffects()
 
 defaultproperties
 {
-     MuzFlashClass=Class'XEffects.ShockProjMuzFlash3rd'
+     MuzFlashClass=Class'tk_StarWars.DroidWeaponMuzFlash'
      LightType=LT_Steady
      LightEffect=LE_NonIncidence
      LightHue=200
