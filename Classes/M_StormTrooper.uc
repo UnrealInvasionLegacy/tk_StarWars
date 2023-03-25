@@ -17,18 +17,18 @@ function PlayVictory()
 defaultproperties
 {
      FireRateScale=1.3
-     HitSound(0)=Sound'tk_StarWars.BattleDroid.uhoh'
-     HitSound(1)=Sound'tk_StarWars.BattleDroid.imprsve'
-     HitSound(2)=Sound'tk_StarWars.BattleDroid.nblast'
-     HitSound(3)=Sound'tk_StarWars.BattleDroid.nboy'
-     DeathSound(0)=Sound'tk_StarWars.BattleDroid.retreat'
-     DeathSound(1)=Sound'tk_StarWars.BattleDroid.cwoooo'
-     DeathSound(2)=Sound'tk_StarWars.BattleDroid.r2scream'
-     DeathSound(3)=Sound'tk_StarWars.BattleDroid.whoa'
-     ChallengeSound(0)=Sound'tk_StarWars.BattleDroid.nsmwher'
-     ChallengeSound(1)=Sound'tk_StarWars.BattleDroid.Incoming'
-     ChallengeSound(2)=Sound'tk_StarWars.BattleDroid.nsplit'
-     ChallengeSound(3)=Sound'tk_StarWars.BattleDroid.nwhere'
+     HitSound(0)=Sound'tk_StarWars.StormTrooper.paina'
+     HitSound(1)=Sound'tk_StarWars.StormTrooper.pain'
+     HitSound(2)=Sound'tk_StarWars.StormTrooper.paina'
+     HitSound(3)=Sound'tk_StarWars.StormTrooper.pain'
+     DeathSound(0)=Sound'tk_StarWars.StormTrooper.assist'
+     DeathSound(1)=Sound'tk_StarWars.StormTrooper.calfor'
+     DeathSound(2)=Sound'tk_StarWars.StormTrooper.Death'
+     DeathSound(3)=Sound'tk_StarWars.StormTrooper.deathd'
+     ChallengeSound(0)=Sound'tk_StarWars.StormTrooper.keep'
+     ChallengeSound(1)=Sound'tk_StarWars.StormTrooper.laffa'
+     ChallengeSound(2)=Sound'tk_StarWars.StormTrooper.nttuff'
+     ChallengeSound(3)=Sound'tk_StarWars.StormTrooper.stay'
      ScoringValue=20
      Health=100
 	HP=100
