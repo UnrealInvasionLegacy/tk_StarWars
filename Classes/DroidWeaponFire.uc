@@ -1,4 +1,5 @@
-class DroidWeaponFire extends tk_ProjectileFire;
+class DroidWeaponFire extends tk_ProjectileFire
+     config(TKWeaponsClient);
 
 defaultproperties
 {

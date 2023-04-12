@@ -1,4 +1,5 @@
-class DroidWeapon extends tk_Weapon;
+class DroidWeapon extends tk_Weapon
+    config(TKWeaponsClient);
 
 defaultproperties
 {
