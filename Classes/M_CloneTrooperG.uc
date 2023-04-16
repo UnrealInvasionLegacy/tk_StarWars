@@ -17,6 +17,7 @@ function PlayVictory()
 defaultproperties
 {
      FireRateScale=1.3
+     WeaponClassName(0)="tk_StarWars.ImperialBlaster"
      HitSound(0)=Sound'tk_StarWars.StormTrooper.paina'
      HitSound(1)=Sound'tk_StarWars.StormTrooper.pain'
      HitSound(2)=Sound'tk_StarWars.StormTrooper.paina'
@@ -35,5 +36,5 @@ defaultproperties
      Mesh=SkeletalMesh'tk_StarWars.CloneTrooper'
      Skins(0)=Shader'tk_StarWars.CloneTrooper.torso_greens'
      Skins(1)=Shader'tk_StarWars.CloneTrooper.helmet_3'
-     GibGroupClass=Class'XEffects.xBotGibGroup'
+     GibGroupClass=Class'XEffects.xPawnGibGroup'
 }

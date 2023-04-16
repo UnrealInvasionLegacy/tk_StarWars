@@ -17,6 +17,7 @@ function PlayVictory()
 defaultproperties
 {
      FireRateScale=1.3
+     WeaponClassName(0)="tk_StarWars.DC15x"
      HitSound(0)=Sound'tk_StarWars.StormTrooper.paina'
      HitSound(1)=Sound'tk_StarWars.StormTrooper.pain'
      HitSound(2)=Sound'tk_StarWars.StormTrooper.paina'
@@ -34,5 +35,5 @@ defaultproperties
 	HP=100
      Mesh=SkeletalMesh'tk_StarWars.SandTrooper'
      Skins(0)=Shader'tk_StarWars.SandTrooper.SandTshader'
-     GibGroupClass=Class'XEffects.xBotGibGroup'
+     GibGroupClass=Class'XEffects.xPawnGibGroup'
 }
