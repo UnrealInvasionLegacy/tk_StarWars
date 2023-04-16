@@ -11,8 +11,8 @@ defaultproperties
      LightRadius=4.000000
      LightPeriod=3
      Mesh=SkeletalMesh'tk_StarWars.DC-15x'
-     RelativeLocation=(X=-5.000000,Y=-5.000000,Z=5.000000)
-     RelativeRotation=(Pitch=32768,Yaw=0,Roll=0)
+     RelativeLocation=(X=-5.000000,Y=-4.000000,Z=5.000000)
+     RelativeRotation=(Pitch=32768,Yaw=-600,Roll=16364)
      DrawScale=0.25
      Skins(0)=Texture'tk_StarWars.DC-15x.DC-15xTex'
 }
