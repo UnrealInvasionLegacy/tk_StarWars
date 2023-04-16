@@ -3,8 +3,8 @@ class DC15xProj extends DroidProj
 
 defaultproperties
 {
-     Speed=2000.000000
-     MaxSpeed=2000.000000
+     Speed=4000.000000
+     MaxSpeed=4000.000000
      Damage=80.000000
      DamageRadius=75.000000
      MyDamageType=Class'tk_StarWars.DamTypeDC15x'
